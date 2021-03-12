@@ -1,6 +1,6 @@
 var student = {
-  name = "",
-  type = "student"
+  name: "",
+  type: "student"
 };
 
 document.addEventListener('DOMContentLoaded', contentLoaded);
@@ -25,4 +25,3 @@ function calculateNumericOutput() {
   var output = "Total Numeric value of person's name is " + totalNameValue;
   document.getElementById('output').innerText = output;
 }
-
