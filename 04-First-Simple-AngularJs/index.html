@@ -7,8 +7,17 @@
     <script src="app.js"></script>
   </head>
   <body>
+    <h1>My first Angular JS App</h1>
     <div ng-controller="MyFirstController">
-
+      <h2>
+        {{sayHello}}
+      </h2>
+      <h2>
+        <input type="text" ng-model="name">
+      </h2>
+      <h2>
+        Inside my input is: {{name}}
+      </h2>
     </div>
   </body>
 </html>
